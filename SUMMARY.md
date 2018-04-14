@@ -5,3 +5,4 @@
 * [Mechanized](mechanized.md)
 * [Loss](loss.md)
 * [First: do not fall](first-not-fall.md)
+* [Treasure](treasure.md)
