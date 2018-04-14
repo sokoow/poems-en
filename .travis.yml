@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+- '7'
+before_script:
+- npm install -g gitbook-cli
+script:
+- mkdir book
+- cd book
+- gitbook init
+- cp ../book.json .
+- cp ../*.md .
+- gitbook install
+- gitbook build
+- git config --global user.email "$GIT_EMAIL"
+- git config --global user.name "$GIT_NAME"
+- git config --global push.default simple
+- mkdir gh-pages
+- git clone --depth 1 --branch gh-pages https://$GH_TOKEN@github.com/$GH_REPO gh-pages
+- cp -R _book/* gh-pages
+- cd gh-pages
+- git add -A .
+- MESSAGE=`date +\ %Y-%m-%d\ %H:%M:%S`
+- git commit -m "Book updated:$MESSAGE"
+- git push --quiet
