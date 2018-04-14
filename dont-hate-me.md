@@ -1,7 +1,6 @@
 # Don't hate me
 
-<div class=verse>
-Maybe I was born different,
+<div class="verse">Maybe I was born different,
 Other than you,
 It doesn't mean you should be fearful,
 Cause I'm a human too.
