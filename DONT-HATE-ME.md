@@ -1,6 +1,6 @@
 #Don't hate me
 
-Maybe I was born different,
+<div class="verse">Maybe I was born different,
 Other than you,
 It doesn't mean you should be fearful,
 Cause I'm a human too.
@@ -29,3 +29,4 @@ So next time you see your sister or brother,
 In a need, be like all the others, and help,
 Even change small little detail for the other,
 Allow for their troubles to break.
+</div>
