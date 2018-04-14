@@ -1,13 +1,9 @@
 #Don't hate me
 
 Maybe I was born different,
-
 Other than you,
-
 It doesn't mean you should be fearful,
-
 Cause I'm a human too.
-
 
 Don't hate me cause I'm not like you,
 Don't look like I do owe you,
